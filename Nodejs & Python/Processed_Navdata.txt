@@ -1,0 +1,5 @@
+Time: 104
+Battery: 42
+Pitch: 0.634 Roll: 0.584 Yaw:-54.157
+Altitude: 0.5
+Translation - x: -0.7818624973297119 y:0.4395858645439148 z:-235
