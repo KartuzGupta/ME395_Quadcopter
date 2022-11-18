@@ -10,10 +10,6 @@ npm install git://github.com/felixge/node-ar-drone.git
 npm install ar-drone
 ```
 
-## Introduction
-
-Integrated Python and NodeJS to control the drone. Our python code accessed the drone’s bottom camera, processed the video, detected the colour of the sticker present on the corridor and wrote the data to the instructions.txt file. NodeJS watches for changes in the instructions.txt file and reads it as soon as it detects some changes in it. It accessed the data in the instructions.txt file in real time and executed the functions accordingly. The drone would give instructions to itself depending on the colour of the sticker thus making it autonomous.
-
 ## Controlling the drone using NodeJS
 
 Controlled the drone using laptop instead of using the [Parrot AR Drone App](https://play.google.com/store/apps/details?id=com.parrot.freeflight&hl=en_IN&gl=US&pli=1) provided by the company. Used a [NodeJS based library](https://github.com/felixge/node-ar-drone) to control our drone. Created a program using NodeJS using which we could successfully control the drone by giving instructions through the terminal. It was also possible to give a pre-defined set of functions to the drone that it would perform.
@@ -23,6 +19,10 @@ We were also able to access real-time navigation and sensor data like Time, Batt
 ## Image Processing using Python OpenCV
 
 Realtime Color Detection: We trained our drone to identify different colours(RGB) in real-time with the help of Python OpenCV. We used HSV(Hue Saturation Value) values to train our drone. Our drone captures the real-time frames and refines them to detect the desired colour and display the colours in bounded rectangles with the name of the colour.
+
+## Integration of NodeJS and Python
+
+Integrated Python and NodeJS to control the drone. Our python code accessed the drone’s bottom camera, processed the video, detected the colour of the sticker present on the corridor and wrote the data to the instructions.txt file. NodeJS watches for changes in the instructions.txt file and reads it as soon as it detects some changes in it. It accessed the data in the instructions.txt file in real time and executed the functions accordingly. The drone would give instructions to itself depending on the colour of the sticker thus making it autonomous.
 
 ## Client
 
