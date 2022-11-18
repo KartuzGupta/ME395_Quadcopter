@@ -16,7 +16,7 @@ Controlled the drone using laptop instead of using the [Parrot AR Drone App](htt
 
 We were also able to access real-time navigation and sensor data like Time, Battery Percentage, Roll, Pitch and Yaw angles, Altitude and Translation published by the drone. We processed it and displayed the necessary values in a txt file.
 
-#### Client
+### Client
 
 This module exposes a high level Client API that tries to support all drone
 features, while making them easy to use.
