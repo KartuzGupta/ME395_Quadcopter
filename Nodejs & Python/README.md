@@ -405,18 +405,6 @@ the same as `{back: 0.5}`.
 
 Sends all enqueued commands as an UDP packet to the drone.
 
-## Video
-
-@TODO Document the low level video API.
-
-## Navdata
-
-@TODO Document the low level navdata API.
-
-## Environment variables
-
-* DEFAULT_DRONE_IP
-
 ## Camera access
 
 You can access the head camera and the bottom camera, you just have to change
