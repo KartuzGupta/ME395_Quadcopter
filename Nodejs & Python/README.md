@@ -1,7 +1,6 @@
 # Parrot AR Drone 2.0
 
 Used Parrot AR 2.0 Drone for our project and we made an autonomous working model that detects colour and accordingly sends commands for execution using Python and Nodejs.
-Referred to .
 
 ```bash
 npm install git://github.com/felixge/node-ar-drone.git
@@ -24,7 +23,6 @@ We were also able to access real-time navigation and sensor data like Time, Batt
 ## Image Processing using Python OpenCV
 
 Realtime Color Detection: We trained our drone to identify different colours(RGB) in real-time with the help of Python OpenCV. We used HSV(Hue Saturation Value) values to train our drone. Our drone captures the real-time frames and refines them to detect the desired colour and display the colours in bounded rectangles with the name of the colour.
-
 
 ## Client
 
