@@ -262,7 +262,7 @@ To enable demo navdata use
 client.config('general:navdata_demo', 'FALSE');
 ```
 
-See [documentation](docs/NavData.md) for ```navadata``` object
+See [documentation](https://github.com/felixge/node-ar-drone/blob/master/docs/NavData.md) for ```navadata``` object
 
 ## UdpControl
 
