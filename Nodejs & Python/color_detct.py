@@ -109,12 +109,6 @@ while(1):
                                        (x + w, y + h),
                                        (0, 255, 0), 2)
               
-            cv2.putText(imageFrame, "Green Colour", (x, y),
-                        cv2.FONT_HERSHEY_SIMPLEX, 
-                        1.0, (0, 255, 0))
-            file1 = open("instructions.txt","w")
-            file1.write("gf_land")
-            file1.close()
 
 
 
