@@ -89,7 +89,7 @@ pngStream.on('data', console.log);
 
 Your first challenge might be to expose these png images as a node http web
 server. Once you have done that, you should try feeding them into the
-[opencv](https://npmjs.org/package/opencv) module.
+[opencv](https://npmjs.org/package/opencv) library.
 
 ### Client API
 
