@@ -5,7 +5,8 @@ Used Parrot AR 2.0 Drone for our project and we made an autonomous working model
 For more info. refer to [this](https://github.com/KartuzGupta/ME395_Quadcopter/blob/main/Nodejs%20%26%20Python/README.md).
 
 Simulation Demo:
-https://user-images.githubusercontent.com/76262941/219053878-b0512fb1-7956-47f6-9c6f-a8b95e501799.mp4
+
+![Simulation Gif](https://user-images.githubusercontent.com/76262941/219060058-e9b5c7f8-6b03-4ea0-ad50-ba0e1f96aa2e.gif)
 
 
 
