@@ -2,6 +2,10 @@
 
 Used Parrot AR 2.0 Drone for our project and we made an autonomous working model that detects colour and accordingly sends commands for execution using Python and Nodejs.
 
+The Drone:
+![drone](https://github.com/KartuzGupta/ME395_Quadcopter/assets/88340022/da44d591-c7dd-46e1-b0cd-9b8442f4746b)
+
+
 For more info. refer to [this](https://github.com/KartuzGupta/ME395_Quadcopter/blob/main/Nodejs%20%26%20Python/README.md).
 
 Simulation Demo:
